@@ -1,9 +1,13 @@
-nginx
+#nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
 mysql:8.0
 redis:5.0
-nacos:2.1.0
+nacos/nacos-server:v2.1.0
+docker.elastic.co/elasticsearch/elasticsearch:7.6.1
+docker.elastic.co/kibana/kibana:7.6.1
+apache/rocketmq:4.8.0
+mongo:4.4
